@@ -7,13 +7,13 @@ k = []
 def f():
     for i in range(0,100): 
         m = (i**2)-7 #The equation for the loop
-        if i<=9:
+        if i<=9: # while i is less than or equal to 9
             k.append(m)
 
         else:
-            while i >=10:
+            while i >=10: # until i < 10 it will continue to subtract 10
                 i = i-10
-                if i<10:
+                if i<10: # if i is less than 10 it will continue the loop
                     m = (i**2)-7 #The equation for the loop
                     k.append(m)
     return i
